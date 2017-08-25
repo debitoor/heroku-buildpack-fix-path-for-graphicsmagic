@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-echo "heroku-buildpack-npmrc"
+echo "heroku-buildpack-fix-path-for-graphicsmagic"
 exit 0
