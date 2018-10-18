@@ -3,4 +3,4 @@
 # Setting environment variables in .profile.d script (sourced at dyno startup)
 build=$(cd "$1/" && pwd)
 mkdir -p $build/.profile.d
-echo 'export MAGICK_CONFIGURE_PATH=/app/.apt/usr/lib/GraphicsMagick-1.3.23/config && echo "fixing MAGICK_CONFIGURE_PATH"' > $build/.profile.d/fix-path-for-gm.sh.sh
+echo 'export MAGICK_CONFIGURE_PATH=/app/.apt/usr/lib/GraphicsMagick-1.3.28/config && echo "fixing MAGICK_CONFIGURE_PATH"' > $build/.profile.d/fix-path-for-gm.sh.sh
